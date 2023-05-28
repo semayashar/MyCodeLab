@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Types of Flowers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      transition: background-color 1s ease;
+    }
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 2, 2, 0.5);
+}
+
+.menu button {
+  background-color: transparent;
+  color: #333;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+  background-color: #f4f4f4;
+}
+
+.flower-card {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  animation: fade-in 1s ease-out;
+  margin-top: 20px; /* Added space between flower card and menu */
+}
+
+.flower-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flower-info {
+  flex-grow: 1;
+}
+
+.flower-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.flower-description {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.flower-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flower-detail {
+  flex-grow: 1;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flower-detail h4 {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.flower-detail p {
+  color: #666;
+  margin: 0;
+}
+
+.back-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-button button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button button:hover {
+  background-color: #555;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+  </style>
+</head>
+<body>
+  <h1>Types of Flowers</h1>
+  <div class="menu-container">
+    <div class="menu">
+      <button onclick="showFlower('rose')">Rose</button>
+      <button onclick="showFlower('lily')">Lily</button>
+      <button onclick="showFlower('tulip')">Tulip</button>
+      <button onclick="showFlower('bluebell')">Bluebell</button>
+    </div>
+  </div>
+  <div id="rose" class="flower-card">
+    <img src="rose.jpg" alt="Rose">
+    <div class="flower-info">
+      <h2 class="flower-name">Rose</h2>
+      <p class="flower-description">
+        The rose is a classic flower known for its beauty and fragrance. It comes in various colors and has been a symbol of love and romance for centuries.
+      </p>
+      <div class="flower-details">
+        <div class="flower-detail">
+          <h4>Meaning:</h4>
+          <p>Love, beauty, passion</p>
+        </div>
+        <div class="flower-detail">
+          <h4>Symbolism:</h4>
+          <p>Romance, devotion, admiration</p>
+        </div>
+        <div class="flower-detail">
+          <h4>Color:</h4>
+          <p>Various colors</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="lily" class="flower-card">
+    <img src="lily.jpg" alt="Lily">
+    <div class="flower-info">
+      <h2 class="flower-name">Lily</h2>
+      <p class="flower-description">
+        The lily is an elegant flower with large, showy blooms. It represents purity and is often associated with weddings and celebrations.
+      </p>
+      <div class="flower-details">
+        <div class="flower-detail">
+          <h4>Meaning:</h4>
+          <p>Purity, innocence, rebirth</p>
+        </div>
+        <div class="flower-detail">
+          <h4>Symbolism:</h4>
+          <p>Beauty, fertility, hope</p>
+        </div>
+        <div class="flower-detail">
+          <h4>Color:</h4>
+          <p>White, pink, yellow, orange, and more</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="tulip" class="flower-card">
+    <img src="tulip.jpg" alt="Tulip">
+    <div class="flower-info">
+      <h2 class="flower-name">Tulip</h2>
+      <p class="flower-description">
+        The tulip is a vibrant flower that comes in a wide range of colors. It is often associated with spring and symbolizes perfect love.
+      </p>
+      <div class="flower-details">
+        <div class="flower-detail">
+          <h4>Meaning:</h4>
+          <p>Love, elegance, grace</p>
+        </div>
+        <div class="flower-detail">
+          <h4>Symbolism:</h4>
+          <p>Passion, romance, beauty</p>
+        </div>
+        <div class="flower-detail">
+          <h4>Color:</h4>
+          <p>Various colors</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="bluebell" class="flower-card">
+    <img src="bluebell.jpg" alt="Bluebell">
+    <div class="flower-info">
+      <h2 class="flower-name">Bluebell</h2>
+      <p class="flower-description">
+        The bluebell is a delicate and enchanting flower known for its vibrant blue color. It is often found in woodlands and symbolizes gratitude and humility.
+      </p>
+      <div class="flower-details">
+        <div class="flower-detail">
+          <h4>Meaning:</h4>
+          <p>Gratitude, humility</p>
+        </div>
+        <div class="flower-detail">
+          <h4>Symbolism:</h4>
+          <p>Constancy, everlasting love</p>
+        </div>
+        <div class="flower-detail">
+          <h4>Color:</h4>
+          <p>Blue</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="back-button">
+    <button onclick="goToMainSite()">Go to Main Site</button>
+  </div>
+  <script>
+    function showFlower(flower) {
+      // Hide all flower cards
+      var flowerCards = document.getElementsByClassName('flower-card');
+      for (var i = 0; i < flowerCards.length; i++) {
+        flowerCards[i].style.display = 'none';
+      }
+      
+      // Show selected flower card
+      var selectedFlower = document.getElementById(flower);
+      selectedFlower.style.display = 'flex';
+      
+      // Change background color gradually
+      var flowerColor;
+      switch (flower) {
+        case 'rose':
+          flowerColor = '#ffe4e1';
+          break;
+        case 'lily':
+          flowerColor = '#e6e6fa';
+          break;
+        case 'tulip':
+          flowerColor = '#ffdab9';
+          break;
+        case 'bluebell':
+          flowerColor = '#add8e6';
+          break;
+        default:
+          flowerColor = '#f4f4f4';
+      }
+      document.body.style.backgroundColor = flowerColor;
+    }
+    
+    function goToMainSite() {
+      // Reset background color to default
+      document.body.style.backgroundColor = '#f4f4f4';
+      
+      // Show all flower cards
+      var flowerCards = document.getElementsByClassName('flower-card');
+      for (var i = 0; i < flowerCards.length; i++) {
+        flowerCards[i].style.display = 'flex';
+      }
+    }
+  </script>
+</body>
+</html>
