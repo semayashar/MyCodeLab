@@ -1,0 +1,15 @@
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\bin\Debug\net6.0\RainBowText.exe
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\bin\Debug\net6.0\RainBowText.deps.json
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\bin\Debug\net6.0\RainBowText.runtimeconfig.json
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\bin\Debug\net6.0\RainBowText.dll
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\bin\Debug\net6.0\RainBowText.pdb
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\obj\Debug\net6.0\RainBowText.csproj.AssemblyReference.cache
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\obj\Debug\net6.0\RainBowText.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\obj\Debug\net6.0\RainBowText.AssemblyInfoInputs.cache
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\obj\Debug\net6.0\RainBowText.AssemblyInfo.cs
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\obj\Debug\net6.0\RainBowText.csproj.CoreCompileInputs.cache
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\obj\Debug\net6.0\RainBowText.dll
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\obj\Debug\net6.0\refint\RainBowText.dll
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\obj\Debug\net6.0\RainBowText.pdb
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\obj\Debug\net6.0\RainBowText.genruntimeconfig.cache
+C:\GitHub\MyCodeLab\RainBowText\RainBowText\obj\Debug\net6.0\ref\RainBowText.dll
