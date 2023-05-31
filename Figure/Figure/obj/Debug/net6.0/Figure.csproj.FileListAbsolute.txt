@@ -1,0 +1,15 @@
+C:\GitHub\MyCodeLab\Figure\Figure\bin\Debug\net6.0\Figure.exe
+C:\GitHub\MyCodeLab\Figure\Figure\bin\Debug\net6.0\Figure.deps.json
+C:\GitHub\MyCodeLab\Figure\Figure\bin\Debug\net6.0\Figure.runtimeconfig.json
+C:\GitHub\MyCodeLab\Figure\Figure\bin\Debug\net6.0\Figure.dll
+C:\GitHub\MyCodeLab\Figure\Figure\bin\Debug\net6.0\Figure.pdb
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Figure.csproj.AssemblyReference.cache
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Figure.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Figure.AssemblyInfoInputs.cache
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Figure.AssemblyInfo.cs
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Figure.csproj.CoreCompileInputs.cache
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Figure.dll
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\refint\Figure.dll
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Figure.pdb
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Figure.genruntimeconfig.cache
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\ref\Figure.dll
