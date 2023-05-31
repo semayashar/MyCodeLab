@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jquzkD2OXijm0ygJY6tq2hzSiegTFkJWKyl7JT1+TpmryjX2RCVoFWWY1uJcxRVanwudXC/eXuQY6QvRHEdNmw==",
+  "dgSpecHash": "aNYdRtck3X6k46UZVUKuUtaJin14opDss5gmBVL/cyujo/7obojHVqmaBoN0b8ePaNbQRrWe/DIeVgs5LdT8zg==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\MyCodeLab\\Figure\\Figure\\Figure.csproj",
+  "projectFilePath": "C:\\GitHub\\MyCodeLab\\Figure\\Figure\\Shape Calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

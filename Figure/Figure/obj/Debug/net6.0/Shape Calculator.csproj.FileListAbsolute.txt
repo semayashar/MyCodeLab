@@ -1,0 +1,15 @@
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Shape Calculator.csproj.AssemblyReference.cache
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Shape Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Shape Calculator.AssemblyInfoInputs.cache
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Shape Calculator.AssemblyInfo.cs
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Shape Calculator.csproj.CoreCompileInputs.cache
+C:\GitHub\MyCodeLab\Figure\Figure\bin\Debug\net6.0\Shape Calculator.exe
+C:\GitHub\MyCodeLab\Figure\Figure\bin\Debug\net6.0\Shape Calculator.deps.json
+C:\GitHub\MyCodeLab\Figure\Figure\bin\Debug\net6.0\Shape Calculator.runtimeconfig.json
+C:\GitHub\MyCodeLab\Figure\Figure\bin\Debug\net6.0\Shape Calculator.dll
+C:\GitHub\MyCodeLab\Figure\Figure\bin\Debug\net6.0\Shape Calculator.pdb
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Shape Calculator.dll
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\refint\Shape Calculator.dll
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Shape Calculator.pdb
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\Shape Calculator.genruntimeconfig.cache
+C:\GitHub\MyCodeLab\Figure\Figure\obj\Debug\net6.0\ref\Shape Calculator.dll

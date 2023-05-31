@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\MyCodeLab\\Figure\\Figure\\Figure.csproj",
-      "projectName": "Figure",
-      "projectPath": "C:\\GitHub\\MyCodeLab\\Figure\\Figure\\Figure.csproj",
+      "projectUniqueName": "C:\\GitHub\\MyCodeLab\\Figure\\Figure\\Shape Calculator.csproj",
+      "projectName": "Shape Calculator",
+      "projectPath": "C:\\GitHub\\MyCodeLab\\Figure\\Figure\\Shape Calculator.csproj",
       "packagesPath": "C:\\Users\\sema_\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\MyCodeLab\\Figure\\Figure\\obj\\",
       "projectStyle": "PackageReference",
