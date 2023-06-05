@@ -1,7 +1,8 @@
-import java.util.List;
 import java.util.Scanner;
 
 public class Product {
+    private static int nextId = 1;
+
     private String number;
     private String name;
     private int count;
@@ -9,26 +10,31 @@ public class Product {
     private Company company;
 
     public Product() {
-        this.number = "";
+        this.number = generateNumber();
         this.name = "";
         this.count = 0;
         this.price = 0;
         this.company = new Company();
     }
 
-    public Product(String number, String name, int count, double price, Company company) {
-        this.number = number;
+    public Product(String name, int count, double price, Company company) {
+        this.number = generateNumber();
         this.name = name;
         this.count = count;
         this.price = price;
         this.company = company;
     }
 
+    public void showInformation() {
+        System.out.println("Product ID: " + getNumber());
+        System.out.println("Product Name: " + getName());
+        System.out.println("Product Price: " + getPrice());
+        System.out.println("Product Count: " + getCount());
+        System.out.println("Product Company: " + getCompany());
+    }
+
     public static Product create(Company company) {
         Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Product Number: ");
-        String number = scanner.nextLine();
         System.out.print("Product Name: ");
         String name = scanner.nextLine();
         System.out.print("Product Count: ");
@@ -37,21 +43,7 @@ public class Product {
         double price = scanner.nextDouble();
         scanner.nextLine();
 
-        return new Product(number, name, count, price, company);
-    }
-
-    public static void searchById(String id, List<Product> products) {
-        for (Product product : products) {
-            if (product.number.equals(id)) {
-                System.out.println("Product Number: " + product.getNumber());
-                System.out.println("Product Name: " + product.getName());
-                System.out.println("Product Count: " + product.getCount());
-                System.out.println("Product Price: " + product.getPrice());
-                System.out.println("Company: " + product.getCompany().getName());
-                return;
-            }
-        }
-        System.out.println("Product with Number " + id + " not found.");
+        return new Product(name, count, price, company);
     }
 
     public String getNumber() {
@@ -72,5 +64,9 @@ public class Product {
 
     public Company getCompany() {
         return company;
+    }
+
+    private static String generateNumber() {
+        return String.valueOf(nextId++);
     }
 }

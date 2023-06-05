@@ -3,6 +3,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Client {
+    private static int nextId = 1;
+
     private String id;
     private String firstName;
     private String lastName;
@@ -14,7 +16,7 @@ public class Client {
     private List<Product> purchasedProducts;
 
     public Client() {
-        this.id = "-1";
+        this.id = generateId();
         this.firstName = "";
         this.lastName = "";
         this.dateOfBirth = "";
@@ -25,9 +27,9 @@ public class Client {
         this.purchasedProducts = new ArrayList<>();
     }
 
-    public Client(String id, String firstName, String lastName, String dateOfBirth, String personalId,
-                    String passportNumber, String placeOfBirth, String currentResidence) {
-        this.id = id;
+    public Client(String firstName, String lastName, String dateOfBirth, String personalId,
+                  String passportNumber, String placeOfBirth, String currentResidence) {
+        this.id = generateId();
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
@@ -41,8 +43,6 @@ public class Client {
     public static Client create() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Client ID: ");
-        String id = scanner.nextLine();
         System.out.print("First Name: ");
         String firstName = scanner.nextLine();
         System.out.print("Last Name: ");
@@ -58,7 +58,7 @@ public class Client {
         System.out.print("Current Residence: ");
         String currentResidence = scanner.nextLine();
 
-        return new Client(id, firstName, lastName, dateOfBirth, personalId, passportNumber, placeOfBirth, currentResidence);
+        return new Client(firstName, lastName, dateOfBirth, personalId, passportNumber, placeOfBirth, currentResidence);
     }
 
     public void addPurchasedProduct(Product product) {
@@ -78,13 +78,13 @@ public class Client {
             System.out.println("- " + product.getName() + ", Count: " + product.getCount() + ", Price: " + product.getPrice());
         }
     }
-    public static void searchById(String id, List<Client> clients) {
-        for (Client client : clients) {
-            if (client.id.equals(id)) {
-                client.showInformation();
-                return;
-            }
-        }
-        System.out.println("Client with ID " + id + " not found.");
+
+    private static String generateId() {
+        return String.valueOf(nextId++);
     }
+
+    public String getId() {
+        return id;
+    }
+
 }
