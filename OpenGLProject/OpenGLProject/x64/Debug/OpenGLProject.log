@@ -1,0 +1,3 @@
+﻿  Main.cpp
+C:\GitHub\SoftUni\C#\Entity Framework Core\OpenGLProject\OpenGLProject\Main.cpp(61,25): warning C4244: 'initializing': conversion from 'long double' to 'float', possible loss of data
+  OpenGLProject.vcxproj -> C:\GitHub\SoftUni\C#\Entity Framework Core\OpenGLProject\x64\Debug\OpenGLProject.exe
