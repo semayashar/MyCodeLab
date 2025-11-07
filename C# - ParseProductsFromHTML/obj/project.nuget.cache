@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kIa4ycvFngo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\semay\\source\\repos\\ParseProductsFromHTML\\ParseProductsFromHTML.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\semay\\.nuget\\packages\\htmlagilitypack\\1.12.4\\htmlagilitypack.1.12.4.nupkg.sha512"
+  ],
+  "logs": []
+}
